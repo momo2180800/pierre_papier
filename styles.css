@@ -1,0 +1,62 @@
+*{
+    box-sizing: content-box;
+}
+body {
+    padding : 0;
+    margin : 0;
+    height: 100vh;
+    background-color: rgb(153, 153, 102);
+}
+header {
+    display : flex;
+    justify-content : center;
+    gap : 60px;
+}
+h1,h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size : 3em;
+}
+h2 {
+    color: rgb(153, 0, 0);
+}
+h3 {
+    font-size: 5em;
+}
+.player-score,.comp-score {
+    width: 100px;
+    height : 100px;
+    background : rgb(255, 204, 0); 
+    border : 3px solid black;
+    font-size: 5em;
+    border-radius: 10px;
+}
+main {
+    display :flex;
+    justify-content: center;
+    /*padding : 20px;*/
+}
+.container {
+    width : 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+main .container .score {
+    padding-left : 80px;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 15px;
+}
+.choice {
+    display : flex;
+    justify-content: center;
+    gap : 20px;
+} 
+button{
+    border-radius: 10px;
+}
+.choice button:active{
+    background-color: rgb(102, 51, 0);
+}

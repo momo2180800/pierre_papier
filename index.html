@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pierre papier</title>
+    <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <header>
+        <img src="icon.png" alt="icon" width="100">
+        <h1>pierre papier scissors</h1>
+    </header>
+    <main>
+        <section class="container">
+            <div class="score">
+                <h3>You</h3>
+                <p id="player-score" class="player-score">0</p>
+                <p id="comp-score" class="comp-score">0</p>
+                <h3>Computer</h3>
+            </div>
+            <h2 id="text_d">make your choice by clicking a icon</h2>
+            <div class="choice">
+                <button value="rock" id="rock"><img src="rock.png" alt="rock" width="100"></button>
+                <button value="paper" id="paper"><img src="paper.png" alt="rock" width="100"></button>
+                <button value="scissors" id="scissors"><img src="scissors.png" alt="rock" width="100"></button>
+            </div>
+        </section>
+        
+    </main>
+    
     <script src="script.js"></script>
 </body>
 </html>
